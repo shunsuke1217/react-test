@@ -8,7 +8,7 @@ export const AppRouter=()=>{
     return(
         <HashRouter>
             <Routes>
-                <Route path="/home" element={<HomePage />} />
+                <Route path="/" element={<HomePage />} />
                 <Route path="/gemini" element={<GeminiPage />} />
             </Routes>
         </HashRouter>
